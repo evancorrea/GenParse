@@ -6,6 +6,7 @@ from .gff import GFFFeature, parse_gff
 from .stats import gc_content, sequence_lengths
 from .alignment import AlignmentResult, needleman_wunsch
 from .intersect import Interval, intersect
+from .simulate import simulate_sequences
 
 try:
     from .plot import plot_length_distribution
@@ -20,4 +21,5 @@ __all__ = [
     'AlignmentResult', 'needleman_wunsch',
     'Interval', 'intersect',
     'plot_length_distribution',
+    'simulate_sequences',
 ]

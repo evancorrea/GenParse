@@ -24,3 +24,14 @@ print('GC%:', gc_content(records[0].sequence))
 plot_length_distribution(lengths)
 ```
 
+## Simulating Sequences
+
+Generate random sequences of specified lengths using `simulate_sequences`:
+
+```python
+from genparse import simulate_sequences
+
+for seq in simulate_sequences([50, 75, 100]):
+    print(seq)
+```
+
